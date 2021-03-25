@@ -80,4 +80,6 @@ XGBoost | 162485 | 107937880996 | 3665 | 3612 | 3598 | 54660 | 6% | 6% | 5% | 83
 Bayes Ridge | 167638 | 115101599398 | 3087 | 3121 | 3075 | 56252 | 5% | 5% | 5% | 86%
 Linear Regression | 167988 | 115611556298 | 3068 | 3131 | 3012 | 56324 | 5% | 5% | 5% | 86%
 
+## Sample feature importance charts (top 30 variables)
 
+![alt text](https://github.com/rethamlai/customer-prediction-using-machine-learning/blob/main/Charts/20210325_LogisticRegression_feat_imp.png?raw=true)
