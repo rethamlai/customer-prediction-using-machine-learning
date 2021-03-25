@@ -50,7 +50,7 @@ An algorithm designed to take in customer level data for predicting future outco
 
 **parameters_gridsearch.py**
 
-- This Python file contains the variables and modelling parameters used for the grid search algoritm in "gridsearch.py".
+- This Python file contains the variables and modelling parameters used for the grid search algorithm in "gridsearch.py".
 
 **parameters_train_and_predict.py**
 
