@@ -77,12 +77,12 @@ Light GBM | 73% | 52% | 97% | 34% | 67%
 **Regression models**
 Model | Mean Absolute Error | Mean Squared Error | Predicted Obs. within 10% | Predicted Obs. within 20% | Predicted Obs. within 30% | Predicted Obs. 30%+ |Predicted % Obs. within 10% | Predicted % Obs. within 20% | Predicted % Obs. within 30% | Predicted %Obs. 30%+
 --- | --- | --- | --- |--- |--- | --- |--- |--- | --- |--- 
-Support-Vector Machines | 96265 | 70713063770 | 6486 | 6134 | 5857 | 47058 | 10% | 9% | 9% | 72%
-Random forest | 159348 | 101936266961 | 3181 | 3112 | 3221 | 56021 | 5% | 5% | 5% | 85%
-Light GBM | 161543 | 110411410042 | 3488 | 3500 | 3461 | 55086 | 5% | 5% | 5% | 84%
-XGBoost | 162485 | 107937880996 | 3665 | 3612 | 3598 | 54660 | 6% | 6% | 5% | 83%
-Bayes Ridge | 167638 | 115101599398 | 3087 | 3121 | 3075 | 56252 | 5% | 5% | 5% | 86%
-Linear Regression | 167988 | 115611556298 | 3068 | 3131 | 3012 | 56324 | 5% | 5% | 5% | 86%
+Support-Vector Machines | 96,265 | 70,713,063,770 | 6,486 | 6,134 | 5,857 | 47,058 | 10% | 9% | 9% | 72%
+Random forest | 159,348 | 101,936,266,961 | 3,181 | 3,112 | 3,221 | 56,021 | 5% | 5% | 5% | 85%
+Light GBM | 161,543 | 110,411,410,042 | 3,488 | 3,500 | 3,461 | 55,086 | 5% | 5% | 5% | 84%
+XGBoost | 162,485 | 107,937,880,996 | 3,665 | 3,612 | 3,598 | 54,660 | 6% | 6% | 5% | 83%
+Bayes Ridge | 167,638 | 115,101,599,398 | 3,087 | 3,121 | 3,075 | 56,252 | 5% | 5% | 5% | 86%
+Linear Regression | 167,988 | 115,611,556,298 | 3,068 | 3,131 | 3,012 | 56,324 | 5% | 5% | 5% | 86%
 
 ## Sample feature importance charts (top 30 variables)
 
