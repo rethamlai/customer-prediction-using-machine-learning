@@ -1,5 +1,5 @@
-# Customer prediction using machine-learning
-Python code designed to find the best performing classification and regression machine-learning and statistical model.
+# Find the best machine-learning model
+Python code designed to find the best performing classification and regression machine-learning model.
 
 Users can apply this to their own work by inputting their own data and optimising the models (please see instructions below).
 
