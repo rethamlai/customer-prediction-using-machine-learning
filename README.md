@@ -25,7 +25,7 @@ The general idea is to input a dataset into this algorithm to know which machine
 
 ## Getting started: setting up the data format
 
-- To start, please make sure you have a data file in the format of a CSV in the "Data" folder. Please see the sample data provided.
+- To start, please make sure you have a data file in the format extension of a CSV in the "Data" folder. Please see the sample data provided.
 - The data needs to be in the format of a 'flat' file. This means each row must represent a unique individual/entity and the columns represent that individuals/entities features.
 - The data should be split between training and for predicting (note: the training data will be further split between training and testing, and the data for predictions can be thought of as a validation test). It has been designed this way so the file "predict.py" can be used to make predictions without having to train and optimise the model parameters each time.
 - The first column of the data files are reserved for the client identifier.
