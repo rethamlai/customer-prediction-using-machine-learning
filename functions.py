@@ -30,7 +30,7 @@ import seaborn as sns
 ############################################################################################################################
 
 todaysdate = datetime.today().strftime('%Y%m%d')
-xxx= 1
+
 # Separate X, y data
 def sep_xy_data(dataframe, position):
     df = pd.DataFrame(dataframe.iloc[:, position].values)
