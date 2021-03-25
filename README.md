@@ -83,3 +83,5 @@ Linear Regression | 167988 | 115611556298 | 3068 | 3131 | 3012 | 56324 | 5% | 5%
 ## Sample feature importance charts (top 30 variables)
 
 ![alt text](https://github.com/rethamlai/customer-prediction-using-machine-learning/blob/main/Charts/20210325_LogisticRegression_feat_imp.png?raw=true)
+
+![alt text](https://github.com/rethamlai/customer-prediction-using-machine-learning/blob/main/Charts/20210325_XGBRegressor_feat_imp.png?raw=true)
