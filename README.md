@@ -23,7 +23,7 @@ An algorithm designed to take in customer level data for predicting future outco
 
 - To start, please make sure you have a data file in the format of a CSV in the "Data" folder. Please see the sample data provided.
 - The data needs to be in the format of a 'flat' file. This means each row must represent a unique individual/entity and the columns represent that individuals/entities features.
-- The data should be split between training and predicting (note: the training data will be further split between training and testing, and the predicting data will be used for validation). It has been designed this way so the file "predict.py" can be used to make predictions without having to train and optimise the model parameters each time.
+- The data should be split between training and prediction (note: the training data will be further split between training and testing, and the predicting data will be used for validation). It has been designed this way so the file "predict.py" can be used to make predictions without having to train and optimise the model parameters each time.
 - The first column of the data files are reserved for the client identifier.
 - The second column of the data files are reserved for the classification outcome variable.
 - The third column of the data files are reserved for the regression outcome variable.
