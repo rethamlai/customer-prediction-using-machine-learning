@@ -34,27 +34,27 @@ An algorithm designed to take in customer level data for predicting future outco
 
 **gridsearch.py**
 
-This Python file is used to gridsearch model parameters for the random forest model, XGBoost model and Light GBM model. To change the parameter search space, please see parameters_gridsearch.py. The algorithm will take a subsample of the training data for grid searching (which the user can change using random1Dict and random2Dict in "parameters_gridsearch.py"
+- This Python file is used to gridsearch model parameters for the random forest model, XGBoost model and Light GBM model. To change the parameter search space, please see parameters_gridsearch.py. The algorithm will take a subsample of the training data for grid searching (which the user can change using random1Dict and random2Dict in "parameters_gridsearch.py"
 
 **train.py**
 
-This Python file is used to train the various classification and regression models using the training data. Users can first run "gridsearch.py" to find the optimal parameters before changing the parameters found in "parameters_train_and_predict.py" for training. The algorithm will take a subsample of the training data each time (which the user can change using random1Dict and random2Dict in "parameters_train_and_predict.py").
+- This Python file is used to train the various classification and regression models using the training data. Users can first run "gridsearch.py" to find the optimal parameters before changing the parameters found in "parameters_train_and_predict.py" for training. The algorithm will take a subsample of the training data each time (which the user can change using random1Dict and random2Dict in "parameters_train_and_predict.py").
 
 **predict.py**
 
-This Python file uses the model weights produced from the file "train.py" to predict outcomes using the prediction data. This produces the final results (please see below).
+- This Python file uses the model weights produced from the file "train.py" to predict outcomes using the prediction data. This produces the final results (please see below).
 
 **functions.py**
 
-This Python file contains the main functions used to run the Python scripts.
+- This Python file contains the main functions used to run the Python scripts.
 
 **parameters_gridsearch.py**
 
-This Python file contains the variables and modelling parameters used for the grid search algoritm in "gridsearch.py".
+- This Python file contains the variables and modelling parameters used for the grid search algoritm in "gridsearch.py".
 
 **parameters_train_and_predict.py**
 
-This Python file contains the variables and modelling parameters used for the training algoritm in "train.py" and prediction algorithm in "predict.py".
+- This Python file contains the variables and modelling parameters used for the training algoritm in "train.py" and prediction algorithm in "predict.py".
 
 # Sample results
 
