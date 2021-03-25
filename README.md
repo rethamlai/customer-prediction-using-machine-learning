@@ -19,7 +19,7 @@ An algorithm designed to take in customer level data for predicting future outco
 - Support-Vector Machines
 - Light GBM
 
-# Data format
+# Getting started: setting up the data format
 
 - To start, please make sure you have a data file in the format of a CSV in the "Data" folder. Please see the sample data provided.
 - The data needs to be in the format of a 'flat' file. This means each row must represent a unique individual/entity and the columns represent that individuals/entities features.
@@ -30,7 +30,7 @@ An algorithm designed to take in customer level data for predicting future outco
 - If there is no classification outcome variable or regression outcome variable, just randomly fill this column with values and then only consider the results for the outcome variable you do have.
 - If you have categorical variables, please change the names in "parameters_gridsearch.py" and "parameters_train_and_predict.py" to how you have named your categorical variables.
 
-# Getting started
+# Getting started: how to use the files
 
 **gridsearch.py**
 
