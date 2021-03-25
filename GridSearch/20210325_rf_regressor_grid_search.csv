@@ -1,0 +1,16 @@
+Model parameter,Values,Best Score
+bootstrap,True,0.0780199639663543
+max_depth,25,0.0780199639663543
+max_features,auto,0.0780199639663543
+max_leaf_nodes,,0.0780199639663543
+min_impurity_decrease,0,0.0780199639663543
+min_impurity_split,,0.0780199639663543
+min_samples_leaf,1,0.0780199639663543
+min_samples_split,37,0.0780199639663543
+min_weight_fraction_leaf,0.3,0.0780199639663543
+n_estimators,10,0.0780199639663543
+n_jobs,1,0.0780199639663543
+oob_score,False,0.0780199639663543
+random_state,123,0.0780199639663543
+verbose,0,0.0780199639663543
+warm_start,False,0.0780199639663543
