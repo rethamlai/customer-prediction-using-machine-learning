@@ -88,7 +88,7 @@ best_results_lgb_class = grid_search_fit(lgbmodel_class, param_grid_lgbc, 'f1', 
 
 rfmodel_reg = RandomForestRegressor()
 best_results_rf_reg = grid_search_fit(rfmodel_reg, param_grid_rfr, None, max(cross_val, 2), X_train, y_reg_train, 'rf_reg')
-    
+
 ############## XGBoost Regression ########################
 
 xgbmodel_reg = XGBRegressor()
