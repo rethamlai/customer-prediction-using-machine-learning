@@ -3,6 +3,7 @@ An algorithm designed to take in customer level data for predicting future outco
 
 # Sample results
 
+**Classification models**
 Model | Accuracy | F1 | Precision | Recall | ROC Area under the curve
 --- | --- | --- | --- |--- |--- 
 Random Forest | 87% | 82% | 96% | 72% | 85%
@@ -13,6 +14,8 @@ Support Vector Machine | 77% | 69% | 79% | 61% | 74%
 Light GBM | 73% | 52% | 97% | 34% | 67%
 
 
+
+**Regression models**
 Model | Mean Absolute Error | Mean Squared Error | Predicted Obs. within 10% | Predicted Obs. within 20% | Predicted Obs. within 30% | Predicted Obs. 30%+ |Predicted % Obs. within 10% | Predicted % Obs. within 20% | Predicted % Obs. within 30% | Predicted %Obs. 30%+
 --- | --- | --- | --- |--- |--- | --- |--- |--- | --- |--- 
 Support Vector Machine | 96265 | 70713063770 | 6486 | 6134 | 5857 | 47058 | 10% | 9% | 9% | 72%
