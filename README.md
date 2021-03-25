@@ -3,7 +3,7 @@ Python code designed to find the best performing classification and regression m
 
 Users can apply this to their own work by inputting their own data and optimising the models (please see instructions below).
 
-The general idea is to input a dataset into this model to know which model is the most accurate and then to use the best performing model for on-going purposes.
+The general idea is to input a dataset into this algorithm to know which machine-learning model is the most accurate for that dataset. 
 
 ## Types of classification models
 
