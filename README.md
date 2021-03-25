@@ -27,7 +27,7 @@ An algorithm designed to take in customer level data for predicting future outco
 - The first column of the data files are reserved for the client identifier.
 - The second column of the data files are reserved for the classification outcome variable.
 - The third column of the data files are reserved for the regression outcome variable.
-- If there is no classification outcome variable or regression outcome variable, just randomly fill this column with values. The model will run both classification and regression models, but you can just consider the results for the outcome variable you do have.
+- If there is no classification outcome variable or regression outcome variable then just randomly fill this column with values. The model will run both classification and regression models, but you can just consider the results for the outcome variable you do have.
 - If you have categorical variables, please change the names in "parameters_gridsearch.py" and "parameters_train_and_predict.py" to what you have named your categorical variables in the data.
 
 ## Getting started: how to use the files
