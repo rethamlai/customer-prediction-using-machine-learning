@@ -34,11 +34,11 @@ An algorithm designed to take in customer level data for predicting future outco
 
 **gridsearch.py**
 
-- This Python file is used to gridsearch model parameters for the random forest model, XGBoost model and Light GBM model. To change the parameter search space, please see parameters_gridsearch.py. The algorithm will take a subsample of the training data for grid searching (which the user can change using random1Dict and random2Dict in "parameters_gridsearch.py"
+- This Python file is used to gridsearch model parameters for the random forest model, XGBoost model and Light GBM model. The algorithm will take a subsample of the training data for grid searching. To change the parameter search space or the subsample of data used for grid searching , please see "parameters_gridsearch.py".
 
 **train.py**
 
-- This Python file is used to train the various classification and regression models using the training data. Users can first run "gridsearch.py" to find the optimal parameters before changing the parameters found in "parameters_train_and_predict.py" for training. The algorithm will take a subsample of the training data each time (which the user can change using random1Dict and random2Dict in "parameters_train_and_predict.py").
+- This Python file is used to train the various classification and regression models using the training data. Users can first run "gridsearch.py" to find the optimal parameters. Once found, users can input the results into "parameters_train_and_predict.py" for training. The algorithm will take a subsample of the training data each time (which the user can change using random1Dict and random2Dict in "parameters_train_and_predict.py").
 
 **predict.py**
 
