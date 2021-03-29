@@ -75,7 +75,7 @@ Light GBM | 73% | 52% | 97% | 34% | 67%
 
 
 **Regression models**
-Model | Mean Absolute Error | Mean Squared Error | Predicted Obs. within 10% | Predicted Obs. within 20% | Predicted Obs. within 30% | Predicted Obs. 30%+ |Predicted % Obs. within 10% | Predicted % Obs. within 20% | Predicted % Obs. within 30% | Predicted %Obs. 30%+
+Model | Mean Absolute Error | Mean Squared Error | Predicted Obs. 0-10% | Predicted Obs. 11-20% | Predicted Obs. within 21-30% | Predicted Obs. 30%+ |Predicted % Obs. 0-10% | Predicted % Obs. 11-20% | Predicted % Obs. 21-30% | Predicted % Obs. 30%+
 --- | --- | --- | --- |--- |--- | --- |--- |--- | --- |--- 
 Support-Vector Machines | 96,265 | 70,713,063,770 | 6,486 | 6,134 | 5,857 | 47,058 | 10% | 9% | 9% | 72%
 Random forest | 159,348 | 101,936,266,961 | 3,181 | 3,112 | 3,221 | 56,021 | 5% | 5% | 5% | 85%
