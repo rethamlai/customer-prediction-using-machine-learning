@@ -46,7 +46,7 @@ The general idea is to input a dataset into this algorithm to know which machine
 
 **predict.py**
 
-- This Python file uses the model weights produced from the file "train.py" to predict outcomes using the prediction data. This produces the final results (please see below).
+- This Python file uses the model weights produced from the file "train.py" to predict outcomes using the prediction data. This produces the final results (please see sample results below).
 
 **functions.py**
 
